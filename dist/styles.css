@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-size: 100%;
+  height: 100%;
 }
 
 *,
@@ -9,10 +10,68 @@ html {
   box-sizing: inherit;
 }
 
-body {
+body,
+main {
   margin: 0;
   padding: 0;
-  font-family: "Courier New", Courier, monospace;
+  background-color: var(--color001);
+  display: var(--flex);
+  justify-content: space-between;
+  height: 100%;
+}
+
+.section1 {
+  width: var(--width5);
+  height: 100%;
+}
+
+.section2 {
+  width: var(--width5);
+  height: 100%;
+}
+
+.section2 img {
+  width: var(--width5);
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.data {
+  width: var(--width5);
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+  height: 50%;
+  line-height: 2.1;
+}
+
+.dots,
+.dots img {
+  width: var(--width5);
+}
+
+input[type=text] {
+  transform: scale(1);
+  width: 100%;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+  padding: 5px 12px;
+}
+
+.text {
+  padding-top: 7px;
+}
+
+button {
+  width: 100%;
+}
+
+p {
+  font-size: var(--font1);
+  float: right;
 }
 
 h1,
@@ -36,9 +95,17 @@ a:active {
 :root {
   --background-color: rgb(184, 158, 158);
   --text-color: green;
-  --access-color-1: ;
+  --color001: #fff7df;
+  --color002: linear-gradient(253.58deg, #ffc000 1.55%, #ff8a00 95.8%);
 }
 
 :root {
-  --display-flex: flex;
+  --imgsize: 80%;
+  --flex: flex;
+  --width1: 20%;
+  --width2: 40%;
+  --width3: 60%;
+  --width4: 80%;
+  --width5: 100%;
+  --font1: 14px;
 }/*# sourceMappingURL=styles.css.map */
