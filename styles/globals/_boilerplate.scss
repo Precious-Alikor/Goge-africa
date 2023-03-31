@@ -39,8 +39,8 @@ main {
   max-width: 50%;
   margin: auto;
   text-align: center;
-  height: 50%;
-  line-height: 2.1;
+  height: 55%;
+  line-height: 2.7;
 }
 
 .dots,
@@ -55,18 +55,25 @@ input[type="text"] {
   margin-bottom: 10px;
   outline: none;
   border: none;
-  padding: 5px 12px;
 }
 
 .text {
-  padding-top: 7px;
+  padding-top: 18px;
+  padding-bottom: 7px;
+  font-size: 14px;
 }
 button {
   width: 100%;
   // border: none;
   // border-radius: 20px;
 }
-p {
-  font-size: var(--font1);
+.sign-up-text {
+  font-size: 10px;
   float: right;
+}
+
+.sign-in {
+  background-image: linear-gradient(to right, #ff8a00, #ffc000);
+  border-radius: 30px;
+  border: none;
 }
