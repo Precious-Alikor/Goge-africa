@@ -83,12 +83,25 @@ button {
   width: var(--width5);
   position: absolute;
   z-index: 1;
-  top: 70%;
+  top: 38%;
   align-items: center;
   text-align: center;
-  background-image: linear-gradient(to top, #ff8a00 1%, #ffc000);
-  padding: 39.8px;
+  background-image: linear-gradient(
+    to top,
+
+    rgb(227, 142, 45),
+    rgb(234, 216, 164),
+    rgba(0, 0, 0, 0)
+  );
+  opacity: 0.9;
+  padding-top: 245px;
+  border-top: none;
+  padding-bottom: 32px;
 }
 .sign-in-rightbottom img {
   width: 5%;
+}
+.sign-in-rightbottom p {
+  max-width: var(--max-width-login);
+  margin: auto;
 }
