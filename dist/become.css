@@ -1,0 +1,8 @@
+.data-become {
+  width: var(--width5);
+  max-width: var(--max-width-login);
+  margin: auto;
+  text-align: center;
+  line-height: 2.7;
+  border: 2px solid red;
+}/*# sourceMappingURL=become.css.map */

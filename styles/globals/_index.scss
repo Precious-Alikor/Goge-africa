@@ -1,7 +1,6 @@
 @forward "boilerplate";
 @forward "typography";
 @forward "colors";
-
 :root {
   --imgsize: 80%;
   --flex: flex;
@@ -20,4 +19,12 @@
   --form-button-radius: 30px;
   --max-width-login: 50%;
   --height-login: 100%;
+  --linear-gradient: linear-gradient(to right, #ff8a00, #ffc000);
+  --linear-gradient2: linear-gradient(
+    to top,
+
+    rgb(227, 142, 45),
+    rgb(234, 216, 164),
+    rgba(0, 0, 0, 0)
+  );
 }

@@ -17,6 +17,7 @@ main {
   display: var(--flex);
   justify-content: space-between;
   height: 100%;
+  width: var(--width5);
 }
 
 .section1 {
@@ -39,8 +40,9 @@ main {
   width: var(--width5);
   max-width: var(--max-width-login);
   margin: auto;
+  // margin-top: -80px;
   text-align: center;
-  height: 55%;
+  // height: 55%;
   line-height: 2.7;
 }
 
@@ -72,7 +74,7 @@ button {
 }
 
 .sign-in {
-  background-image: linear-gradient(to right, #ff8a00, #ffc000);
+  background-image: var(--linear-gradient);
   border-radius: var(--form-button-radius);
   border: none;
 }
@@ -86,13 +88,7 @@ button {
   top: 38%;
   align-items: center;
   text-align: center;
-  background-image: linear-gradient(
-    to top,
-
-    rgb(227, 142, 45),
-    rgb(234, 216, 164),
-    rgba(0, 0, 0, 0)
-  );
+  background-image: var(--linear-gradient2);
   opacity: 0.9;
   padding-top: 245px;
   border-top: none;
@@ -104,4 +100,8 @@ button {
 .sign-in-rightbottom p {
   max-width: var(--max-width-login);
   margin: auto;
+}
+.sign-in a {
+  text-decoration: none;
+  color: white;
 }
